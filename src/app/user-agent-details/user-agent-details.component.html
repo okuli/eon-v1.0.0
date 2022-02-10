@@ -1,0 +1,48 @@
+<div class="container-custom">
+    <div class="connect-info-custom">
+        <div class="connect-content-custom">
+
+            <div id="agent">
+                <div id="agentIcon"></div>
+            </div>
+            <div class="call-details-custom">
+                <div class="agent-details-custom">
+                    <!-- <label *ngIf="requestState !== roomStateData.Kicked &&  requestState !== roomStateData.Logout"><b>First
+                            Name:</b></label> {{ userAgent.firstName }}
+                    <br>
+                    <label *ngIf="requestState !== roomStateData.Kicked &&  requestState !== roomStateData.Logout"><b>Last
+                            Name:</b></label> {{ userAgent.lastName }}
+                    <br> -->
+                    <label *ngIf="requestState === roomStateData.Confirmed" class="request-status success">
+                        <b>Connected to the agent</b>
+                    </label>
+                    <label *ngIf="requestState === roomStateData.Pending"
+                        class="request-status danger"><b>Pending</b></label>
+                    <label *ngIf="requestState === roomStateData.Declined" class="request-status danger"><b>
+                            Declined</b></label>
+                    <label *ngIf="requestState === roomStateData.Kicked" class="request-status danger"><b>Call is
+                            ended.</b></label>
+                    <label *ngIf="requestState === roomStateData.Logout" class="request-status danger"><b>Call is
+                            ended.</b></label>
+                </div>
+                <div class="end-Phone" (click)="handleCloseCustom()">
+                    <div class="end-phone-icon"></div>
+                    <div class="end-phone-logo"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="red">
+
+        </div>
+        <div class="orange">
+
+        </div>
+        <div class="cyan">
+
+        </div>
+    </div>
+
+
+
+</div>

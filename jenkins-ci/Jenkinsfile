@@ -1,0 +1,12 @@
+// our pipline library, to reduce pipline code
+// code available at https://bitbucket.org/lascucarachas/lib-jenkins-pipeline/
+// config at https://deploy.livecontract.de/configure#section131
+@Library("lib-pipeline-default") _
+
+spNpmPipeline npmToolId: 'nodejs-14-tool',
+  cmdTest: 'npm run test-ci',
+  testResults: 'junit.xml',
+  type: 'war',
+  buildParams: '--base-href /v-terminal/',
+  projectName: 'vterminal-frontend'
+

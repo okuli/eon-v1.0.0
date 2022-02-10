@@ -1,0 +1,229 @@
+.request-status{
+  margin-top: 0.4rem;
+  display: block;
+  font-size: 20px
+}
+
+.danger{
+  color: red;
+}
+
+.success{
+  color: green;
+}
+
+.connect-info-custom{
+  display: flex;
+  height: 100vh;
+}
+
+.connect-content-custom{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red{
+  background-color: #b00402;
+  width: 70px;
+}
+
+.orange{
+  background-color: #ea1c0a;
+  width: 140px;
+}
+
+.cyan{
+  background-color: #5cc1cb;
+  width: 90px;
+}
+
+#agent{
+  border: 6px solid rgb(65, 63, 63);
+  min-width: 70%;
+  width: 80%;
+  height: 95%;
+  text-align: center;
+  margin: 0px 10px;
+  background-image: url("../../assets/person-icon-1672.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.call-details-custom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+  padding-left: 10px;
+}
+
+.end-Phone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.end-phone-icon{
+  content: url("../../assets/endCall.png");
+  display: inline-block;
+  width: 150px;
+  cursor: pointer;
+}
+
+.end-phone-logo{
+  display: inline-block;
+  content: url("../../assets/eonLogo.png");
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .red{
+    display: none;
+   }
+  .orange{
+    display: none;
+  }
+  .cyan{
+    display: none;
+  }
+  .call-details-custom{
+    flex-direction: row;
+    height: unset;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+  }
+
+  .connect-content-custom{
+    flex-direction: column;
+  }
+
+  #agent{
+    width: 95%;
+  }
+
+  .end-phone-logo{
+    height: 30px;
+  }
+
+  .end-phone-icon{
+    width: 75px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .red{
+    width: 20px;
+   }
+  .orange{
+    width: 50px;
+  }
+  .cyan{
+    width: 30px;
+  }
+  .call-details-custom{
+    flex-direction: row;
+    height: unset;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+  }
+
+  .connect-content-custom{
+    flex-direction: column;
+  }
+
+  #agent{
+    width: 95%;
+  }
+
+  .end-phone-logo{
+    height: 30px;
+  }
+
+  .end-phone-icon{
+    width: 75px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .red{
+      width: 35px;
+    }
+    .orange{
+      width: 70px;
+    }
+    .cyan{
+      width: 45px;
+    }
+    .call-details-custom{
+      flex-direction: row;
+      height: unset;
+      justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    }
+    .connect-content-custom{
+      flex-direction: column;
+    }
+    #agent{
+      width: 95%;
+    }
+    .end-phone-logo{
+      height: 30px;
+    }
+
+    .end-phone-icon{
+      width: 75px;
+    }
+  }
+
+@media only screen and (min-width: 801px) and (max-width: 1000px)  {
+  .red{
+      width: 45px;
+  }
+  .orange{
+    width: 90px;
+  }
+  .cyan{
+    width: 65px;
+  }
+  .call-details-custom{
+    flex-direction: row;
+    height: unset;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+  }
+  .connect-content-custom{
+    flex-direction: column;
+  }
+  #agent{
+    width: 95%;
+  }
+  .end-phone-logo{
+    height: 30px;
+  }
+
+  .end-phone-icon{
+    width: 75px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px)  {
+  .red{
+    width: 50px;
+  }
+  .orange{
+    width: 100px;
+  }
+  .cyan{
+    width: 70px;
+  }
+
+}

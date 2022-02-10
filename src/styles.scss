@@ -1,0 +1,249 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+margin: 0px;
+background-color: #f6f6f7;
+}
+
+.btn-primary {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+  }
+
+  .form-control{
+    display: block;
+      width: 100%;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .form-text {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+
+.warn {
+  color: #ef5e5e;
+}
+
+
+
+/* New Design */
+
+.connect-info{
+  display: flex;
+  height: 100vh;
+}
+
+.connect-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-desc{
+  text-align: center;
+  font-style: italic;
+  font-size: 2.3em;
+  color: #ea1c0a;
+  font-weight: bold;
+  font-family: 'Brix Sans', sans-serif;
+}
+
+.connect-Phone{
+  display: flex;
+}
+
+.connect-phone-icon{
+  content: url("./assets/phone.png");
+  display: inline-block;
+  width: 250px;
+  cursor: pointer;
+}
+
+.connect-phone-logo{
+  display: inline-block;
+  content: url("./assets/eonLogo.png");
+  height: 100px;
+  align-self: flex-end;
+}
+
+.fix{
+  position:fixed;
+  bottom:10px;
+}
+
+.outerLoading{
+  width: 100%;
+  text-align: center;
+}
+
+.loading{
+  display: inline-block;
+  content: url("./assets/loading.gif");
+  width: 180px;
+}
+
+.red{
+  background-color: #b00402;
+  width: 70px;
+}
+.orange{
+  background-color: #ea1c0a;
+  width: 150px;
+}
+.cyan{
+  background-color: #5cc1cb;
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .connect-desc{
+    font-size: 0.8em;
+  }
+
+  .connect-phone-icon{
+    width: 130px;
+  }
+
+  .connect-phone-logo{
+    height: 40px;
+  }
+
+  .loading{
+    width: 100px;
+  }
+
+  .red{
+    width: 20px;
+
+  }
+  .orange{
+    width: 50px;
+  }
+  .cyan{
+    width: 30px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .connect-desc{
+    font-size: 1.4em;
+  }
+
+  .connect-phone-icon{
+    width: 150px;
+  }
+
+  .connect-phone-logo{
+    height: 50px;
+  }
+
+  .loading{
+    width: 120px;
+  }
+
+  .red{
+    width: 35px;
+
+  }
+  .orange{
+    width: 70px;
+  }
+  .cyan{
+    width: 45px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px)  {
+  .connect-desc{
+    font-size: 1.8em;
+  }
+
+  .connect-phone-icon{
+    width: 170px;
+  }
+
+  .connect-phone-logo{
+    height: 70px;
+  }
+
+  .loading{
+    width: 140px;
+  }
+
+  .red{
+    width: 45px;
+
+  }
+  .orange{
+    width: 90px;
+  }
+  .cyan{
+    width: 65px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px)  {
+  .connect-desc{
+    font-size: 2.1em;
+  }
+
+  .connect-phone-icon{
+    width: 190px;
+  }
+
+  .connect-phone-logo{
+    height: 80px;
+  }
+
+  .loading{
+    width: 160px;
+  }
+
+  .red{
+    width: 55px;
+
+  }
+  .orange{
+    width: 120px;
+  }
+  .cyan{
+    width: 75px;
+  }
+}
+
+

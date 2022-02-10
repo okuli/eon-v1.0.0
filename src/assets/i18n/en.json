@@ -1,0 +1,12 @@
+{
+  "WelcomeMsgEn": "Welcome to your E.ON customer service",
+  "WelcomeMsg": "Herzlich Willkommen bei Ihrem E.ON Kundenservice",
+  "WillBeConnectRepresentativeMsgEn": "You will be connected to one of our customer service representatives.",
+  "WillBeConnectRepresentativeMsg": "Sie werden mit einem unserer Kundenberater*innen verbunden.",
+  "ConnectionFailedMsgOneEn": "Unfortunately, the video consulting is not possible at the moment.",
+  "ConnectionFailedMsgTwoEn": "We apologize for the inconvenience.",
+  "ConnectionFailedMsgThreeEn": "Please contact us at 0331 73040091.",
+  "ConnectionFailedMsgOne": "Derzeit ist leider keine Videoberatung möglich.",
+  "ConnectionFailedMsgTwo": "Wir bitten um Entschuldigung.",
+  "ConnectionFailedMsgThree": "Bitte wenden Sie sich an 0331 73040091."
+}

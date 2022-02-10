@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "firstName":"Rrezart",
+        "lastName":"Prebreza"
+    },
+    {
+        "id":2,
+        "firstName":"Oket",
+        "lastName":"Hoxha"
+    },
+    {
+        "id":3,
+        "firstName":"Ron",
+        "lastName":"Asllani"
+    },
+  {
+    "id":3,
+    "firstName":"Ilirjana",
+    "lastName":"Kozhani"
+  },
+  {
+    "id":3,
+    "firstName":"Getoar",
+    "lastName":"Krasniqi"
+  }
+
+]

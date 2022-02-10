@@ -1,0 +1,22 @@
+{
+    "stompUrl": "https://dev.syncpilot.com/beraterpoolServer/beraterpoolWS",
+    "serverUrlServer": "https://dev.syncpilot.com/beraterpoolServer/beraterpool/server/v1",
+    "ownerId": 19,
+    "groupId": 47,
+    "settings": {
+        "auth": {
+            "clientId": "lcClient",
+            "clientSecret": "d46d0f758bb4832e3c204e271825fbec",
+            "endpointUrl": "https://dev.syncpilot.com/authservice/oauth/token"
+        },
+        "sync": {
+            "channelId": "",
+            "endpointUrl": "https://dev.syncpilot.com/syncservice/ws"
+        }
+    },
+    "jitsiDomain": "meet-dev1.livecontract.de",
+    "secret": "SD3kd8jwenWks824jsKwe21qe",
+    "aud": "lc.dev.jitsi-meet",
+    "iss": "lc.dev.jitsi-meet",
+    "sub": "meet"
+}

@@ -1,0 +1,79 @@
+<container-element [ngSwitch]="currentCallStatus">
+  <div class="connect-info" *ngSwitchCase="CallStatus.Initial">
+    <div class="connect-content">
+      <p class="connect-desc" translate>WelcomeMsg<br>
+        <br>WelcomeMsgEn
+      </p>
+      <div (click)="connectAgent()" class="connect-Phone">
+        <div class="connect-phone-icon"></div>
+      </div>
+      <div class="connect-phone-logo fix"></div>
+    </div>
+    <div class="red">
+
+    </div>
+    <div class="orange">
+
+    </div>
+    <div class="cyan">
+
+    </div>
+  </div>
+
+  <div class="connect-info" *ngSwitchCase="CallStatus.Connecting">
+    <div class="connect-content">
+      <p class="connect-desc" translate>WillBeConnectRepresentativeMsg<br>
+        <br>WillBeConnectRepresentativeMsgEn
+      </p>
+      <div class="outerLoading">
+        <div class="loading"></div>
+      </div>
+      <div class="connect-phone-logo fix"></div>
+    </div>
+    <div class="red">
+
+    </div>
+    <div class="orange">
+
+    </div>
+    <div class="cyan">
+
+    </div>
+  </div>
+
+  <app-user-agent-details *ngSwitchCase="CallStatus.Connected" [userAgent]="selectedAgent" [service]="service"
+    [guestUser]="guestUser" [beraterpoolResponse]="beraterpoolResponse">
+  </app-user-agent-details>
+
+  <div class="connect-info" *ngSwitchCase="CallStatus.Failed">
+    <div class="connect-content">
+      <p class="connect-desc">
+        <span translate>
+          ConnectionFailedMsgOne<br>
+          ConnectionFailedMsgTwo<br>
+          ConnectionFailedMsgThree<br>
+          <br>
+          <br>
+          ConnectionFailedMsgOneEn<br>
+          ConnectionFailedMsgTwoEn<br>
+          ConnectionFailedMsgThreeEn
+          <br>
+          <br>
+        </span>
+        00:{{timeoutSec | number : '2.0'}}
+      </p>
+
+      <div class="connect-phone-logo fix"></div>
+    </div>
+    <div class="red">
+
+    </div>
+    <div class="orange">
+
+    </div>
+    <div class="cyan">
+
+    </div>
+  </div>
+
+</container-element>
